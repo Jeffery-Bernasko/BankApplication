@@ -27,10 +27,10 @@ public class BankDetails {
     //Methods
     //Method to Open new account
     public void newAccount(){
-        System.out.print("Enter Account Number: ");
-        System.out.print("Enter Account type: ");
-        System.out.print("Enter Name: ");
-        System.out.print("Enter balance");
+        System.out.println("Enter Account Number: ");
+        System.out.println("Enter Account type: ");
+        System.out.println("Enter Name: ");
+        System.out.println("Enter balance: ");
     }
 
     //Method to display account details

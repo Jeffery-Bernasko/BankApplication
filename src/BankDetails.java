@@ -6,6 +6,22 @@ public class BankDetails {
     private String acc_type;
     private long balance;
 
+    public String getAccNo() {
+        return accNo;
+    }
+
+    public String getName() {
+        return Name;
+    }
+
+    public String getAcc_type() {
+        return acc_type;
+    }
+
+    public long getBalance() {
+        return balance;
+    }
+
     public void setAccNo(String accNo) {
         this.accNo = accNo;
     }
@@ -26,12 +42,7 @@ public class BankDetails {
 
     //Methods
     //Method to Open new account
-    public void newAccount(){
-        System.out.println("Enter Account Number: ");
-        System.out.println("Enter Account type: ");
-        System.out.println("Enter Name: ");
-        System.out.println("Enter balance: ");
-    }
+
 
     //Method to display account details
     public void showAccount(){
